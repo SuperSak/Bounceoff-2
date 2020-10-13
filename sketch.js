@@ -1,10 +1,10 @@
 var fixedRect, movingRect
 
 function setup() {
-  createCanvas(800,800);
-  fixedRect=createSprite(200, 100, 50, 100);
+  createCanvas(400,400);
+  fixedRect=createSprite(200, 0, 20, 20);
   fixedRect.shapeColor="green";
-  movingRect=createSprite(200,700,50,20);
+  movingRect=createSprite(200,400,20,20);
   movingRect.shapeColor="green";
   //fixedRect.velocityX=3
   fixedRect.velocityY=3
